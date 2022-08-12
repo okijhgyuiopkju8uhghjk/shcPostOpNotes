@@ -17,39 +17,75 @@
     <div class="row notes-box">
         <div class="col-sm-12 ">
         <p>
-            POST OP NOTES   <br>
-            <hr>							
-            IVF 100 ml/hr								<br>
-            Spo2 > 95% O2 via face mask								<br>
-                                            <br>
-            sips of oral fulid / Liquid diet	4 PM	after hrs	6	after OBG rounds				<br>
-            Soft diet		after OBG rounds | Ramesh sir gives after 12 hrs						<br>
-            Ambulate form	????	1 hr after justin supp after						<br>
+            POST OP NOTES <b>LSCS</b><br>
+            <hr>
+            <!-- Data Entry -->
+                <div class="col-lg-2">
+                    <p class="data-entryBox-B">
+                        <label> Is this Emergency? </label>  
+                        <select>
+                            <option value = "No"> no  </option>  
+                            <option value = "Yes"> Yes  </option>         
+                        </select>  
+                    </p>
+                    <p class="data-entryBox-A">
+                    <label for="appt">PrOp-Ab time:</label><input type="time" id="appt" name="appt"min="01:00" max="18:00" required>
+                    <button type="button" onclick="alert('Hello world!')">Submit</button>
+                    </p>
+                    <p class="data-entryBox-B">
+                        <label for="appt">SAB at:</label><input type="time" id="appt" name="appt"min="09:00" max="18:00" required>
+                        <button type="button" onclick="alert('Hello world!')">Submit</button>
+                    </p>
+                    <p class="data-entryBox-A">
+                        <label> Epidural succesful? </label>  
+                        <select>  
+                            <option value = "null"> null   </option>  
+                            <option value = "Yes"> Yes  </option>  
+                            <option value = "No"> no  </option>   
+                        </select>  
+                    </p> 
+                    <p class="data-entryBox-B">
+                        <label for="appt">Sur End time:</label><input type="time" id="appt" name="appt"min="09:00" max="18:00" required>
+                        <button type="button" onclick="alert('Hello world!')">Submit</button>
+                    </p>
+                    <p class="data-entryBox-A">
+                        <label for="appt">Start epidural at:</label><input type="time" id="appt" name="appt"min="09:00" max="18:00" required>
+                        <button type="button" onclick="alert('Hello world!')">Submit</button>
+                    </p>
+                    
+                </div>
+            <hr>
+            <!-- notes-->
+            IVF 100 ml/hr<br>
+            Spo2 > 95% O2 via face mask	<br>
+            <br>
+            sips of oral fulid / Liquid diet	<i class="toCal">4 PM</i>	after hrs	6	after OBG rounds				<br>
+            Soft diet <i class="toCal">???</i>		after OBG rounds | Ramesh sir gives after 12 hrs						<br>
+            Ambulate form	<i class="toCal">???</i>	1 hr after justin supp after						<br>
             Grbs ___ hrly - start sliding scale if GRBS > ____								<br>
-            Can be shifted	2 PM	6	hrs - after OBG rounds					<br>
-                                            <br>
-            Sporodex AF 12 hrly (Inj Taxim 12 hrly - )	8 PM	8 AM				gap	12	<br>
-            Inj Metris 8 hrly - 	4 PM	12 Nt	8 AM			gap	8	<br>
+            Can be shifted	<i class="toCal">???</i>	6	hrs - after OBG rounds					<br>
+            <br>
+            Sporodex AF 12 hrly (Inj Taxim 12 hrly - )	<i class="toCal">???</i>	<br>
+            Inj Metris 8 hrly - 	<i class="toCal">???</i>			gap	8	<br>
             Cap Razo D 12 hrly(once daily from)	6 ' PM	6 ' AM				gap	12	<br>
-            Inj PCM 1g 6 hrly  - (sos)	4 PM	10 PM	4 AM	10 AM		gap	6	<br>
+            Inj PCM 1g 6 hrly  - (sos)	<i class="toCal">???</i>		gap	6	<br>
             Justin Suppository 12 hrly (till discharge)		6 'PM	6'AM			gap	12	<br>
-            Epidural 6hrly	1 PM	7 PM	1 AM	7 AM		gap	6	<br>
-            (killer dose) -	11 AM	3	hrs after sab					<br>
-            Inj Tramadol 1 amp IM -	4 AM	(night dose of PCM to be substituted)						<br>
-            Inj Onden 4 mg IV (sos)	3 PM :45 	 :45 	7 AM :45 			gap	-1	<br>
-                                            <br>
-            Pt daily tablet :								<br>
-                                            <br>
-            Inj Clexane ?40 mg sc × 3 days	10 PM	gap	12	???		Bmi 34 		<br>
-            Neb Budecort -								<br>
-            Neb N saline - A9 B9 C9								<br>
+            Epidural 6hrly	<i class="toCal">???</i>		gap	6	<br>
+            (killer dose) -	<i class="toCal">???</i>	3	hrs after sab					<br>
+            Inj Tramadol 1 amp IM -	<i class="toCal">???</i>	(night dose of PCM to be substituted)						<br>
+            Inj Onden 4 mg IV (sos)	<i class="toCal">???</i> 			gap	-1	<br>
+            <br>
+            Pt daily tablet :<br>
+            <br>
+            Inj Clexane <i class="toCal">???</i> mg sc × 3 days	<i class="toCal">???</i>	gap	12	???		Bmi 34 		<br>
+            Neb Budecort - <i class="toCal">???</i>								<br>
+            Neb N saline - <i class="toCal">???</i>							<br>
             Ted Stocking, Deep Breathing exercises, chest physio								<br>
             Incentive spirometry 2 hrly								<br>
-            epidural cath to be removed (mak sure clexan gap)			11 AM	13	hrs gap			<br>
-            Dolo 650 QID 	1 PM	7 PM	1 AM	7 AM	6	hrs gap		<br>
+            epidural cath to be removed (mak sure clexan gap)			<i class="toCal">???</i>	13	hrs gap			<br>
+            Dolo 650 QID 	<i class="toCal">???</i>	6	hrs gap		<br>
         </p>
     </div>
     </div>  
 </body>
 </html>
-

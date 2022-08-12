@@ -1,3 +1,25 @@
 .notes-box{
     margin-left: 2% ;
 }
+.data-entryBox-A {
+    background-color: #fcb900;
+    padding: 5%;
+}
+.data-entryBox-B{
+    padding: 5%;
+    background-color: #e2e2e2;
+}
+.toCal{
+    color: red;
+}
+
+/* html elements */
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
