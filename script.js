@@ -1,21 +1,19 @@
-import addHours from './addTime.mjs'
+//add hrs to date time =fun to add hours to your date time
+function addHours(numOfHours, date ) {
+    date.setTime(date.getTime() + numOfHours * 60 * 60 * 1000);
+  
+    return date;
+  }
 //first wait for the DOM to load
 window.onload = function(){
     //get date from dom
     //get sur end time from dom
     document.getElementById("surEndTime").onclick= 
     function(){
-        myDate = new Date("2022-03-14T"+document.getElementById("surEndTimeValue").value);
-        //alert(document.getElementById("surEndTimeValue").value +document.getElementById("currentDate").value );
-        document.getElementById("liquidDiteAt").innerHTML=(addHours(2, mydate)).toLocaleString('en-US', {
-            //day:    'numeric',
-            //month:  'numeric',
-            //year:   'numeric',
-            hour:   '2-digit',
-            minute: '2-digit',
-            hours12: "true"
-            
-        });
+        //myDate = new Date("2022-03-14T"+document.getElementById("surEndTimeValue").value);
+        //console.log(typeof myDate);
+        alert(document.getElementById("surEndTimeValue").value +document.getElementById("currentDate").value );
+        document.getElementById("liquidDiteAt").innerHTML= "yes";
     }
     
     //import js date time script
