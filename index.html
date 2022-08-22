@@ -21,6 +21,11 @@
             <hr>
             <!-- Data Entry -->
                 <div class="col-lg-2">
+                    <p class="data-entryBox-A">
+                        <label for="appt">Date:</label>
+                        <input type="date" id="currentDate" name="birthday">
+                        <button id="btCurrentDate" type="button">Submit</button> 
+                    </p>
                     <p class="data-entryBox-B">
                         <label> Is this Emergency? </label>  
                         <select>
@@ -45,8 +50,8 @@
                         </select>  
                     </p> 
                     <p class="data-entryBox-B">
-                        <label for="appt">Sur End time:</label><input type="time" id="appt" name="appt"min="09:00" max="18:00" required>
-                        <button type="button" onclick="alert('Hello world!')">Submit</button>
+                        <label for="appt">Sur End time:</label><input id="surEndTimeValue" type="time"  name="appt"min="00:00" max="24:00" required>
+                        <button type="button" id="surEndTime">Submit</button>
                     </p>
                     <p class="data-entryBox-A">
                         <label for="appt">Start epidural at:</label><input type="time" id="appt" name="appt"min="09:00" max="18:00" required>
@@ -59,7 +64,7 @@
             IVF 100 ml/hr<br>
             Spo2 > 95% O2 via face mask	<br>
             <br>
-            sips of oral fulid / Liquid diet	<i class="toCal">4 PM</i>	after hrs	6	after OBG rounds				<br>
+            sips of oral fulid / Liquid diet <i class="toCal">4 PM</i>- after OBG rounds |(hrs 6 fater sur)<br>
             Soft diet <i class="toCal">???</i>		after OBG rounds | Ramesh sir gives after 12 hrs						<br>
             Ambulate form	<i class="toCal">???</i>	1 hr after justin supp after						<br>
             Grbs ___ hrly - start sliding scale if GRBS > ____								<br>
